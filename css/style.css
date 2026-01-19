@@ -2,11 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: Inter ;
 }
 
+
 body {
-  background: #0d021a;
+  background: radial-gradient(circle at top, #2a0b4e, #120021);
+  color: #fff;
 }
 
 .navbar {
@@ -223,5 +225,22 @@ body {
   text-transform: uppercase;
   color: #bfb6d6;
 }
+.why{
+  background: #2a004f;
+}
+
+.why-techwave {
+  margin: 120px 200px;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  
+} 
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 80px;
+}
+
 
 
