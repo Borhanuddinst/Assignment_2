@@ -19,11 +19,7 @@
 
   .logo {
     font-size: 22px;
-  }
-
-  /* ----------------------------------------------- */
-
-  
+  }   
   .hero {
     min-height: auto;
     padding: 40px 16px;
@@ -38,6 +34,7 @@
     height: 220px;
     left: 0 !important; 
     margin: 0 auto;
+    top: 50px;
   }
 
   .badge {
@@ -49,7 +46,8 @@
 
   .title {
     font-size: 32px;
-    margin-top: 28px;
+    margin-top: 80px;
+    
   }
 
   .subtitle {
@@ -70,11 +68,7 @@
     padding: 10px 16px;
     font-size: 13px;
     white-space: nowrap;      
-  }
-
-
-  /* ----------------------------- */
-
+  }  
   .about-section {
     padding: 40px 16px 80px;
   }
@@ -114,11 +108,8 @@
 
   .stat-box span {
     font-size: 11px;
-  }
-
-
-  /* ============================================= */
-
+  }   
+  
   .why-techwave {
     margin: 60px 16px;
   }
@@ -129,12 +120,11 @@
   }
 
   .feature-grid {
-    grid-template-columns: 1fr;   /* 🔑 একটার নিচে একটা */
+    grid-template-columns: 1fr;
     gap: 20px;
   }
 
-  /* desktop grid behaviour বন্ধ */
-  .tall {
+ .tall {
     grid-row: auto;
   }
 
@@ -169,14 +159,12 @@
     font-size: 28px;
     margin-bottom: 30px;
   }
-
-  /* 🔑 grid single column */
+    
   .episode-grid {
     grid-template-columns: 1fr;
     gap: 25px;
   }
-
-  /* video responsive */
+    
   .video-wrap iframe {
     width: 100%;
     height: auto;
@@ -213,7 +201,7 @@
   }
 
   .host-card {
-    flex-direction: column;     /* 🔑 একটার নিচে একটা */
+    flex-direction: column;
     text-align: center;
     padding: 32px 20px;
     gap: 24px;
@@ -247,6 +235,45 @@
   .social img {
     width: 16px;
     height: 16px;
+  }
+  .footer {
+    min-height: auto;
+  }
+
+  .footer-overlay {
+    padding: 40px 15px;
+  }
+
+  .footer-logo {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .footer-icons {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 18px;
+    margin-bottom: 22px;
+  }
+
+  .footer-icons a {
+    justify-content: flex-start;
+    font-size: 14px;
+    gap: 8px;
+  }
+
+  .footer-icons img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 300px;
+    margin: 0 auto;
   }
 
 }

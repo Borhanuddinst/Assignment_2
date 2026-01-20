@@ -71,8 +71,7 @@ body {
   height: auto;
   cursor: pointer;
 }
-/* --------------------------------- */
-
+  
 .hero {
   min-height: 100vh;
   position: relative;
@@ -176,7 +175,7 @@ body {
   color: #000;
   border-color: transparent;
 }
-/* ------------------------------------------------- */
+  
 .about-section {
   padding: 50px 200px 150px;
   background:
@@ -235,8 +234,7 @@ body {
   text-transform: uppercase;
   color: #bfb6d6;
 }
-
-/* -------------------------------- */
+  
 .why{
   background: #2a004f;
 }
@@ -382,10 +380,7 @@ body {
 .time {
   font-size: 13px;
   color: #3cff9e;
-}
-
-/* =================================== */
-
+} 
 .host-section {
   max-width: 1200px;
   margin: 120px auto;
@@ -456,34 +451,45 @@ body {
   background: linear-gradient(135deg, #ff4ecd, #ffb86c);
   box-shadow: 0 12px 25px rgba(255,78,205,0.4);
 }
-
-.footer {
-  background: url("../assets/footer-bg.png") center / cover no-repeat;
   
+.footer {
+  position: relative;
+  width: 100%;
+  min-height: 260px;
+
+  background-image: url("../assets/footer-bg.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-
 .footer-overlay {
-  background: rgba(176, 85, 251, 0.47);
+  width: 100%;
+  height: 100%;
+
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 60px 20px;
 }
 
-.footer-content {
-  max-width: 1200px;
-  margin: auto;
+  
+  .footer-content {
   text-align: center;
-  color: #fff;
+  color: #ffffff;
 }
-
-
+  
 .footer-logo {
-  font-size: 42px;
-  font-weight: 700;
-  margin-bottom: 22px;
+  font-size: 46px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
 }
 
 .footer-logo span {
-  background: linear-gradient(to top right, #ffd84d,#ff2fcf,#8a2bff );
+   background: linear-gradient(to top right, #ffd84d,#ff2fcf,#8a2bff );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -492,30 +498,36 @@ body {
 .footer-icons {
   display: flex;
   justify-content: center;
-  gap: 28px;
-  margin-bottom: 22px;
+  align-items: center;
+  gap: 26px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
 }
 
 .footer-icons a {
-  width: 40px;
-  height: 40px;
-  display: grid;
-  place-items: center;
-  transition: 0.3s ease;
-}
-
-.footer-icons img {
-  width: 20px;
-  height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #d5d5d5;
+  text-decoration: none;
+  opacity: 0.85;
+  transition: 0.3s;
 }
 
 .footer-icons a:hover {
-  opacity: 0.9;
+  opacity: 1;
+  color: #ffffff;
+}
+
+.footer-icons img {
+  width: 15px;
+  height: 15px;
 }
 
 .footer-text {
-  font-size: 13px;
-  opacity: 0.75;
+  font-size: 15px;
+  color: #b5b5b5;
 }
 
 
