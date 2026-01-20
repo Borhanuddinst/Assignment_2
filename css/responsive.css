@@ -1,0 +1,119 @@
+@media (max-width: 576px) {
+
+  .navbar {
+    padding: 0 20px;
+    height: 60px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  /* ----------------------------------------------- */
+
+  
+  .hero {
+    min-height: auto;
+    padding: 40px 16px;
+  }
+  .center-wrap {
+    width: 100%;
+    text-align: center;
+  }
+
+  .round-wrap {
+    width: 220px;
+    height: 220px;
+    left: 0 !important; 
+    margin: 0 auto;
+  }
+
+  .badge {
+    top: 6px;
+    right: 8px;
+    font-size: 11px;
+    padding: 4px 10px;
+  }
+
+  .title {
+    font-size: 32px;
+    margin-top: 28px;
+  }
+
+  .subtitle {
+    font-size: 13px;
+    max-width: 360px;
+    margin: 10px auto 22px;
+  }
+
+  .btnn-group {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;         
+  }
+
+  .btnn {
+    padding: 10px 16px;
+    font-size: 13px;
+    white-space: nowrap;      
+  }
+
+
+  /* ----------------------------- */
+
+  .about-section {
+    padding: 40px 16px 80px;
+  }
+
+  .about-content h2 {
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
+
+  .about-content .desc {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .about-content .desc br {
+    display: none;
+  }
+
+  .about-content .sub-desc {
+    font-size: 13px;
+    margin-bottom: 60px;
+  }
+
+  .about-section hr {
+    margin-top: 0;
+  }
+
+  .stats {
+    margin-top: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+  }
+
+  .stat-box h3 {
+    font-size: 30px;
+  }
+
+  .stat-box span {
+    font-size: 11px;
+  }
+
+}

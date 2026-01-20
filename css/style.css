@@ -62,6 +62,16 @@ body {
   opacity: 0.85;
 }
 
+.menu-icon {
+  display: none;
+}
+
+.menu-icon img {
+  width: 24px;   
+  height: auto;
+  cursor: pointer;
+}
+/* --------------------------------- */
 
 .hero {
   min-height: 100vh;
@@ -166,7 +176,7 @@ body {
   color: #000;
   border-color: transparent;
 }
-
+/* ------------------------------------------------- */
 .about-section {
   padding: 50px 200px 150px;
   background:
@@ -225,6 +235,8 @@ body {
   text-transform: uppercase;
   color: #bfb6d6;
 }
+
+/* -------------------------------- */
 .why{
   background: #2a004f;
 }
@@ -504,4 +516,5 @@ body {
   font-size: 13px;
   opacity: 0.75;
 }
+
 
