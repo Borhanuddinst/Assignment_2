@@ -1,0 +1,104 @@
+
+
+@media (min-width: 992px) {
+
+  .navbar {
+    padding: 0 120px;
+  }
+
+  .nav-links {
+    gap: 40px;
+  }
+
+  .btn {
+    font-size: 16px;
+    padding: 12px 26px;
+  }
+
+  .round-wrap {
+    width: 320px;
+    height: 320px;
+    left: 0;
+    margin: 0 auto;
+  }
+
+  .title {
+    font-size: 56px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    max-width: 600px;
+  }
+
+  .btnn {
+    font-size: 15px;
+    padding: 14px 26px;
+  }
+
+  .about-section {
+    padding: 80px 200px 160px;
+  }
+
+  .about-content h2 {
+    font-size: 46px;
+  }
+
+  .about-content .desc {
+    font-size: 17px;
+  }
+
+  .stats {
+    gap: 40px;
+  }
+
+  .why-techwave {
+    margin: 140px 200px;
+  }
+
+  .feature-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .feature-card h3 {
+    font-size: 22px;
+  }
+
+  .featured {
+    max-width: 1300px;
+  }
+
+  .episode-grid {
+    gap: 40px;
+  }
+
+  .episode-card iframe {
+    width: 100%;
+    height: 220px;
+  }
+
+  .host-card {
+    padding: 50px 60px;
+  }
+
+  .host-image img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .host-content h3 {
+    font-size: 26px;
+  }
+
+  .host-content p {
+    font-size: 16px;
+  }
+
+  .footer-logo {
+    font-size: 52px;
+  }
+
+  .footer-text {
+    font-size: 15px;
+  }
+}
